@@ -19,17 +19,18 @@
 }
 
 .header .logo {
-    width: 33.33%;
+    margin: 10px 10px;
+    width: 30%;
     float: left;
 }
 
 .header .logo .title {
-    margin: 10px;
+    margin: 20px 10px;
     font-size: 30px;
 }
 
 .header .search {
-    width: 33.33%;
+    position: relative;
     float:left;
 }
 
@@ -37,6 +38,39 @@
     margin: 10px;
     width: 250px;
     height: 25px;
+}
+
+.header .list-link {
+    margin: 10px 0 0 0;
+    padding: 0;
+    float: left;
+}
+
+.header .list-link ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header .list-link ul li {
+    margin: 0;
+    padding: 10px 10px;
+    float: left;
+}
+
+.header .list-link ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .link-login {
+    margin: 0;
+    padding: 0;
+}
+
+.header .link-login a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .body {
@@ -58,6 +92,10 @@
 .body .menu li a {
     text-decoration: none;
     color: #000;
+}
+
+.clear {
+    clear: both;
 }
 
 @media only screen and (max-width: 768px) {
